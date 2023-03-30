@@ -1,0 +1,6 @@
+@import 'tailwind.css';
+@import 'vue-toastification/dist/index.css';
+
+.Vue-Toastification__toast--default {
+    background-color: var(--color-info);
+}

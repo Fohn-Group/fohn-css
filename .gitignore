@@ -1,0 +1,9 @@
+# Dependency directory
+node_modules
+# Distribution
+dist
+
+# Remove some common IDE working directories
+.idea
+.vscode
+
