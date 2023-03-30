@@ -1,6 +1,6 @@
 {
   "name": "fohn-ui-css",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Tailwind css utilities for Fohn-Ui php framework",
   "main": "dist/fohn-ui.min.css",
   "files": [
