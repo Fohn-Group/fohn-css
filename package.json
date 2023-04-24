@@ -1,6 +1,6 @@
 {
   "name": "fohn-ui-css",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tailwind css utilities for Fohn-Ui php framework",
   "main": "dist/fohn-ui.min.css",
   "files": [
@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "build-dist": "NODE_ENV=production postcss ./src/fohn-defaut.css -o dist/fohn-ui.min.css",
-    "dev": "postcss ./src/fohn-defaut.css -o ../ui/public/fohn-ui.css --watch --verbose",
-    "build": "NODE_ENV=production postcss ./src/fohn-defaut.css -o ../ui/public/fohn-ui.min.css"
+    "dev": "postcss ./src/fohn-defaut.css -o ../fohn-ui/public/fohn-ui.css --watch --verbose",
+    "build": "NODE_ENV=production postcss ./src/fohn-defaut.css -o ../fohn-ui/public/fohn-ui.min.css"
   },
   "keywords": [],
   "author": "Alain Belair",

@@ -7,10 +7,10 @@ const transition = require('./src/transition');
 module.exports = {
   content: [
     'fohn-ui-default/**/*.txt',
-    '../ui/template/tailwind/**/*.html',
-    '../ui/src/**/*.php',
+    '../fohn-ui/template/tailwind/**/*.html',
+    '../fohn-ui/src/**/*.php',
     '../fohn-js/src/**/*.{html,js,vue}',
-    '../ui/demos/**/*.{html,php,txt}',
+    '../fohn-ui/app-test/**/*.{html,php,txt}',
   ],
   safelist: [],
   theme: {
