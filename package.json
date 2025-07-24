@@ -7,6 +7,7 @@
     "dist/**/*"
   ],
   "scripts": {
+    "prepare": "npm run build-dist",
     "build-dist": "NODE_ENV=production postcss ./src/fohn-defaut.css -o dist/fohn-ui.min.css",
     "dev": "postcss ./src/fohn-defaut.css -o ../fohn-ui/public/fohn-ui.css --watch --verbose",
     "build": "NODE_ENV=production postcss ./src/fohn-defaut.css -o ../fohn-ui/public/fohn-ui.min.css"
