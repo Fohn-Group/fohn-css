@@ -1,6 +1,6 @@
 {
   "name": "fohn-ui-css",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "Tailwind css utilities for Fohn-Ui php framework",
   "main": "dist/fohn-ui.min.css",
   "files": [
@@ -17,13 +17,14 @@
   "homepage": "http://www.fohn-ui.com/",
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.0",
-    "autoprefixer": "^10.4.12",
-    "cssnano": "^7.0.3",
-    "postcss-cli": "^11.0.0",
-    "postcss-import": "^16.1.0",
-    "tailwindcss": "^3.2.1"
+    "autoprefixer": "^10.4.12"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^4.1.11",
+    "tailwindcss-cli": "^0.1.2",
     "vue-toastification": "^2.0.0-rc.5"
   }
 }

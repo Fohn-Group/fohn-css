@@ -12,7 +12,6 @@ module.exports = {
     '../fohn-js/src/**/*.{html,js,vue}',
     '../fohn-ui/app-test/**/*.{html,php,txt}',
   ],
-  safelist: [],
   theme: {
     colors: {
       transparent: 'transparent',
