@@ -1,13 +1,13 @@
 {
   "name": "fohn-ui-css",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Tailwind css utilities for Fohn-Ui php framework",
   "main": "dist/fohn-ui.min.css",
   "files": [
-    "dist/**/*"
+    "dist/"
   ],
   "scripts": {
-    "prepare": "npm run build-dist",
+    "prepare": "NODE_ENV=production postcss ./src/fohn-defaut.css -o dist/fohn-ui.min.css",
     "build-dist": "NODE_ENV=production postcss ./src/fohn-defaut.css -o dist/fohn-ui.min.css",
     "dev": "postcss ./src/fohn-defaut.css -o ../fohn-ui/public/fohn-ui.css --watch --verbose",
     "build": "NODE_ENV=production postcss ./src/fohn-defaut.css -o ../fohn-ui/public/fohn-ui.min.css"
@@ -22,8 +22,9 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
-    "postcss": "^8.4.21",
-    "postcss-cli": "^11.0.0",
+    "cssnano": "^7.1.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
     "tailwindcss": "^4.1.11",
     "tailwindcss-cli": "^0.1.2",
     "vue-toastification": "^2.0.0-rc.5"
